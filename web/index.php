@@ -3,6 +3,7 @@ require "../vendor/autoload.php";
 
 $app = new \Slim\Slim(array(
   "templates.path" => "../templates"
+  //Next comment
 ));
 
 $app->get('/', function () use ($app){
@@ -11,5 +12,6 @@ $app->get('/', function () use ($app){
   $app->render("main.php");
   //Another comment
   //More comment
+  //Next comment
 } );
 $app->run();
