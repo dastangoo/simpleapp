@@ -1,10 +1,14 @@
 <?php
 require "../vendor/autoload.php";
 
-$app = new \Slim\Slim();
+$app = new \Slim\Slim(array(
+  "templates.path" => "../templates"
+));
 
 $app->get('/', function () use ($app){
-  echo "hello";
+  //Just output the template
+  $app->render("main.php");
+  //Another comment
+  //More comment
 } );
-
 $app->run();
