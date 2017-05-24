@@ -7,6 +7,7 @@ $app = new \Slim\Slim(array(
 
 $app->get('/', function () use ($app){
   //Just output the template
+  //Another comment
   $app->render("main.php");
   //Another comment
   //More comment
