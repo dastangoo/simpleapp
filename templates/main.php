@@ -1,3 +1,8 @@
 <h1>Hello</h1>
+<div class="content">
+  <p>What a nice templates</p>
+</div>
 
-<p>What a nice templates</p>
+<div class="footer">
+  Site made by great peaple
+</div>
